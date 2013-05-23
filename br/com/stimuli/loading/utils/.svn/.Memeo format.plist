@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2010-02-26T04:46:00Z</date>
+		<key>actualSize</key>
+		<integer>2</integer>
+		<key>attributeModDate</key>
+		<date>2010-02-26T04:46:00Z</date>
+		<key>createDate</key>
+		<date>2010-01-27T03:25:05Z</date>
+		<key>creationDate</key>
+		<date>2010-04-09T18:27:56Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>9A001BB5-87E3-46DE-83D9-7C7320F50CCC</string>
+		<key>lastModifiedDate</key>
+		<date>2010-01-27T03:25:05Z</date>
+		<key>originalPath</key>
+		<string>/Users/alptugan/Global_Classes/br/com/stimuli/loading/utils/.svn/format</string>
+		<key>originalSize</key>
+		<integer>2</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32348</integer>
+				<key>creatorCode</key>
+				<integer>0</integer>
+				<key>fileType</key>
+				<integer>0</integer>
+				<key>id</key>
+				<string>F3C51547-3D46-49A2-9EB8-5FA2939B2E2C</string>
+				<key>macAttributes</key>
+				<integer>0</integer>
+				<key>ownerGID</key>
+				<integer>20</integer>
+				<key>ownerUID</key>
+				<integer>501</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

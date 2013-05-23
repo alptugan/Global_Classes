@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2010-03-18T16:32:44Z</date>
+		<key>actualSize</key>
+		<integer>2149</integer>
+		<key>attributeModDate</key>
+		<date>2010-02-26T04:51:38Z</date>
+		<key>createDate</key>
+		<date>2010-02-16T03:21:52Z</date>
+		<key>creationDate</key>
+		<date>2010-03-20T23:20:14Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>F32CC2C7-A488-4756-AA9F-E3F8668D9FBB</string>
+		<key>lastModifiedDate</key>
+		<date>2010-02-26T04:51:38Z</date>
+		<key>originalPath</key>
+		<string>/Users/alptugan/Global_Classes/warmforestflash/drawing/DottedLine.as</string>
+		<key>originalSize</key>
+		<integer>2149</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32348</integer>
+				<key>creatorCode</key>
+				<integer>0</integer>
+				<key>fileType</key>
+				<integer>0</integer>
+				<key>id</key>
+				<string>79D0492E-F8F9-4739-924A-05A32AF8D2E0</string>
+				<key>macAttributes</key>
+				<integer>0</integer>
+				<key>ownerGID</key>
+				<integer>20</integer>
+				<key>ownerUID</key>
+				<integer>501</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

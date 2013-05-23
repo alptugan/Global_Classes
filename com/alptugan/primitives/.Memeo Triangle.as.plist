@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2010-04-05T23:16:18Z</date>
+		<key>actualSize</key>
+		<integer>1698</integer>
+		<key>attributeModDate</key>
+		<date>2010-03-22T14:58:35Z</date>
+		<key>createDate</key>
+		<date>2010-03-21T19:41:58Z</date>
+		<key>creationDate</key>
+		<date>2010-04-08T00:28:55Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>E2048613-78BD-4D65-BE34-47C3A25F2206</string>
+		<key>lastModifiedDate</key>
+		<date>2010-03-22T14:58:35Z</date>
+		<key>originalPath</key>
+		<string>/Users/alptugan/Global_Classes/Primitives/Triangle.as</string>
+		<key>originalSize</key>
+		<integer>1698</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32348</integer>
+				<key>creatorCode</key>
+				<integer>0</integer>
+				<key>fileType</key>
+				<integer>0</integer>
+				<key>id</key>
+				<string>B1E33062-9DB1-4FA6-8F99-2B072EE8340D</string>
+				<key>macAttributes</key>
+				<integer>0</integer>
+				<key>ownerGID</key>
+				<integer>20</integer>
+				<key>ownerUID</key>
+				<integer>501</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

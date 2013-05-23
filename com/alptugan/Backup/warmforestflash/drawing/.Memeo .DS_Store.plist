@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2010-04-09T17:50:30Z</date>
+		<key>actualSize</key>
+		<integer>6148</integer>
+		<key>attributeModDate</key>
+		<date>2010-02-26T04:48:20Z</date>
+		<key>createDate</key>
+		<date>2010-02-16T03:21:52Z</date>
+		<key>creationDate</key>
+		<date>2010-04-09T18:27:56Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>092741A7-0F92-4FFD-97D7-FCF0D8CDA02B</string>
+		<key>lastModifiedDate</key>
+		<date>2010-02-16T03:21:52Z</date>
+		<key>originalPath</key>
+		<string>/Users/alptugan/Global_Classes/warmforestflash/drawing/.DS_Store</string>
+		<key>originalSize</key>
+		<integer>6148</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32348</integer>
+				<key>creatorCode</key>
+				<integer>0</integer>
+				<key>fileType</key>
+				<integer>0</integer>
+				<key>id</key>
+				<string>BE32FD39-D02B-47F7-87E3-0B3AFBBC7D14</string>
+				<key>macAttributes</key>
+				<integer>0</integer>
+				<key>ownerGID</key>
+				<integer>20</integer>
+				<key>ownerUID</key>
+				<integer>501</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

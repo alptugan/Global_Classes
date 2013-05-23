@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2010-04-05T15:20:11Z</date>
+		<key>actualSize</key>
+		<integer>16673</integer>
+		<key>attributeModDate</key>
+		<date>2010-04-04T02:29:34Z</date>
+		<key>createDate</key>
+		<date>2010-04-04T02:29:34Z</date>
+		<key>creationDate</key>
+		<date>2010-04-08T00:28:55Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>ACF9779D-879D-463C-BBB7-A9D689631496</string>
+		<key>lastModifiedDate</key>
+		<date>2010-04-04T02:29:34Z</date>
+		<key>originalPath</key>
+		<string>/Users/alptugan/Global_Classes/ru/etcs/utils/FontLoader.as</string>
+		<key>originalSize</key>
+		<integer>16673</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32348</integer>
+				<key>creatorCode</key>
+				<integer>0</integer>
+				<key>fileType</key>
+				<integer>0</integer>
+				<key>id</key>
+				<string>8A8D4736-567F-4BBD-8C21-36A8276EF7F9</string>
+				<key>macAttributes</key>
+				<integer>0</integer>
+				<key>ownerGID</key>
+				<integer>20</integer>
+				<key>ownerUID</key>
+				<integer>501</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

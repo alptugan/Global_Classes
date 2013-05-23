@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+
+	<requested_mp3></requested_mp3>
+
+	<player_bg_size Width="600" Height="26" xPos="" yPos=""
+		color="0x191919"></player_bg_size>
+
+	<play_btn xPos="0" yPos="8">mp3_interface/black/play_btn.png</play_btn>
+
+	<pause_btn xPos="55" yPos="5"></pause_btn>
+
+	<stop_btn xPos="0" yPos="8">mp3_interface/black/stop_btn.png</stop_btn>
+
+	<tracker_bg xPos="24" yPos="13">mp3_interface/black/playerbar_bg.png</tracker_bg>
+
+	<tracker_bg_loading xPos="24" yPos="12">mp3_interface/black/tracker_bg.png</tracker_bg_loading>
+
+	<tracker xPos="0" yPos=""></tracker>
+
+	<time_preview xPos="499" yPos="6" color="0xffffff" size="10"></time_preview>
+
+	<volume_on xPos="586" yPos="8">mp3_interface/black/sound_on.png</volume_on>
+	<volume_off xPos="586" yPos="8">mp3_interface/black/sound_off.png</volume_off>
+
+	<mouse_over_color>0xcccccc</mouse_over_color>
+
+	<runtime>
+		<Bg Color="0xE6E6E6" W="384" H="21" eW="6" eH="6" />
+		<Txt Color="0x808080" X="282" Y="26" />
+		<TbPlayed Color="0x0074D9" H="3" Y="32" />
+		<TbLoaded Color="0x808080" />
+		<TbDef Color="0xCCCCCC" W="263" H="1" eW="0" eH="0" X="16" Y="33" />
+
+		<Play Color="0x0074D9" W="8" H="10" X="3" Y="28" />
+		<Pause Color="0x0074D9" W="9" H="10" X="3" Y="28" />
+		<SoundIco Color="0x0074D9" X="340" Y="26" />
+		<TbSoundDef Color="0xCCCCCC" W="29" H="1" eW="0" eH="0" X="352"
+			Y="33" />
+		<TbSoundCurr Color="0x0074D9" H="3" Y="32" />
+	</runtime>
+</Settings>

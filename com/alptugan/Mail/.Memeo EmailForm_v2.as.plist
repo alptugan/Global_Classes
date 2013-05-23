@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2010-04-12T00:43:54Z</date>
+		<key>actualSize</key>
+		<integer>4970</integer>
+		<key>attributeModDate</key>
+		<date>2010-04-11T05:34:51Z</date>
+		<key>createDate</key>
+		<date>2010-04-11T01:10:49Z</date>
+		<key>creationDate</key>
+		<date>2010-04-14T01:25:26Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>C3D04DC0-3622-4F12-9A96-0D42D8EB8AD4</string>
+		<key>lastModifiedDate</key>
+		<date>2010-04-11T05:34:51Z</date>
+		<key>originalPath</key>
+		<string>/Users/alptugan/Global_Classes/Mail/EmailForm_v2.as</string>
+		<key>originalSize</key>
+		<integer>4970</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32348</integer>
+				<key>creatorCode</key>
+				<integer>0</integer>
+				<key>fileType</key>
+				<integer>0</integer>
+				<key>id</key>
+				<string>DA154224-2291-4AD2-B0A2-7BEE2159F32C</string>
+				<key>macAttributes</key>
+				<integer>0</integer>
+				<key>ownerGID</key>
+				<integer>20</integer>
+				<key>ownerUID</key>
+				<integer>501</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

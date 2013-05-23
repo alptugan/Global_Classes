@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessDate</key>
+		<date>2010-01-05T11:04:19Z</date>
+		<key>actualSize</key>
+		<integer>2</integer>
+		<key>attributeModDate</key>
+		<date>2010-01-09T02:20:39Z</date>
+		<key>createDate</key>
+		<date>2010-01-05T10:54:26Z</date>
+		<key>creationDate</key>
+		<date>2010-04-09T18:34:11Z</date>
+		<key>encrypted</key>
+		<false/>
+		<key>id</key>
+		<string>57C65C75-9BAC-4EE9-9ACC-DC8D26D411CD</string>
+		<key>lastModifiedDate</key>
+		<date>2010-01-05T10:54:26Z</date>
+		<key>originalPath</key>
+		<string>/Users/alptugan/SVN_Class/Stroep_Lib/nl/stroep/utils/.svn/format</string>
+		<key>originalSize</key>
+		<integer>2</integer>
+		<key>versionMetadataList</key>
+		<array>
+			<dict>
+				<key>POSIXPermissions</key>
+				<integer>-32476</integer>
+				<key>creatorCode</key>
+				<integer>0</integer>
+				<key>fileType</key>
+				<integer>0</integer>
+				<key>id</key>
+				<string>D60DF317-A7F5-4CE4-B6DE-95C4E497D314</string>
+				<key>macAttributes</key>
+				<integer>0</integer>
+				<key>ownerGID</key>
+				<integer>20</integer>
+				<key>ownerUID</key>
+				<integer>501</integer>
+			</dict>
+		</array>
+		<key>versionType</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>
