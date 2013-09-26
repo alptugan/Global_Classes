@@ -4,7 +4,7 @@
  * Email        : info@alptugan.com
  *
  * Class Name   : RootAir.as
- * Release Date : Mar 6, 2012
+ * Release Date : Sep 26, 2013
  *
  * Feel free to use this code in any way you want other than selling it.
  * Thanks. -Alp Tugan
@@ -12,6 +12,7 @@
 package com.alptugan.globals
 {
 	import com.alptugan.utils.debug.Stats;
+	import com.alptugan.utils.keys.KeyCode;
 	
 	import flash.desktop.InteractiveIcon;
 	import flash.desktop.NativeApplication;
@@ -28,10 +29,13 @@ package com.alptugan.globals
 	import flash.display.StageDisplayState;
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
+	import flash.events.KeyboardEvent;
 	import flash.events.MouseEvent;
 	import flash.geom.Rectangle;
+	import flash.ui.Mouse;
 	
 	import org.casalib.display.CasaSprite;
+	import org.casalib.ui.Key;
 	
 	
 	public class RootAir extends CasaSprite
@@ -83,7 +87,34 @@ package com.alptugan.globals
 		{
 			monitor = new Stats(_x,_y); 
 			addChild(monitor);
+			
+			stage.addEventListener(KeyboardEvent.KEY_DOWN,onKeyDown);
 		}
+		
+		protected function onKeyDown(e:KeyboardEvent):void
+		{
+			if(e.keyCode == KeyCode.D)
+			{
+				monitor.visible = !monitor.visible;
+			}
+			
+			else if(e.keyCode == KeyCode.F) 
+			{
+				if(appWin.stage.displayState == StageDisplayState.NORMAL)
+					appWin.stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
+				else
+					appWin.stage.displayState = StageDisplayState.NORMAL;
+			}
+		}
+		
+		public function showMouseCursor(vis:Boolean=false):void {
+			if(vis)
+				Mouse.show();
+			else
+				Mouse.hide();
+		}
+		
+
 		
 		public function showDebugView(bol:Boolean):void
 		{
