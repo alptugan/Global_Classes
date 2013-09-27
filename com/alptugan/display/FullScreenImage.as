@@ -52,6 +52,7 @@
 		//STAGE EVENTS				
 		private function onAddedToStage(e:Event):void 
 		{
+			this.removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage);	
 			_initStage = true;
 			
 			stage.align = StageAlign.TOP_LEFT;
@@ -65,6 +66,7 @@
 		}
 		private function onRemovedFromStage(e:Event):void 
 		{
+			this.removeEventListener(Event.REMOVED_FROM_STAGE, onRemovedFromStage);
 			stage.removeEventListener(Event.RESIZE, onStageResize); //listen to stage for scale chages.	
 		}
 		

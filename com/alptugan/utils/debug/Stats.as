@@ -174,6 +174,11 @@ package com.alptugan.utils.debug{
 			
 		}
 		
+		public function setPos(_x:int,_y:int):void {
+			this.x = _x;
+			this.y = _y;
+		}
+		
 	}
 	
 }

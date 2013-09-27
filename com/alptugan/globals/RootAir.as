@@ -4,7 +4,7 @@
  * Email        : info@alptugan.com
  *
  * Class Name   : RootAir.as
- * Release Date : Sep 26, 2013
+ * Release Date : Sep 27, 2013
  *
  * Feel free to use this code in any way you want other than selling it.
  * Thanks. -Alp Tugan
@@ -83,11 +83,43 @@ package com.alptugan.globals
 		 * initialize System Performance Monitor
 		 * 
 		 */
-		public function initDebugView(_x:int = 0, _y:int = 0):void
+		public function initDebugView(pos:String = "tl"):void
 		{
+			var _x:int,_y:int = 0;
 			monitor = new Stats(_x,_y); 
 			addChild(monitor);
+			switch(pos)
+			{
+				case "tl":
+				{
+					_x=0;
+					_y=0;
+					break;
+				}
+					
+				case "tr":
+				{
+					_x=W-monitor.width;
+					_y=0;
+					break;
+				}
+					
+				case "bl":
+				{
+					_x=0;
+					_y=H-monitor.height;
+					break;
+				}
+					
+				case "bl":
+				{
+					_x=W-monitor.width;
+					_y=H-monitor.height;
+					break;
+				}
+			}
 			
+			monitor.setPos(_x,_y);
 			stage.addEventListener(KeyboardEvent.KEY_DOWN,onKeyDown);
 		}
 		
@@ -116,11 +148,10 @@ package com.alptugan.globals
 		
 
 		
-		public function showDebugView(bol:Boolean):void
+		public function showDebugView(bol:Boolean=false):void
 		{
-			bol = monitor.visible;
 			
-			monitor.visible = !bol;
+			monitor.visible = bol;
 		}
 		
 		public function initAppWindow(isFront:Boolean,w:int,h:int,frameRate:int = 30, quality:String = "HIGH",_x:int=0,_y:int =0):void
