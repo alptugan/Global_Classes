@@ -1,3 +1,4 @@
+// Editted on Nov,25,2013
 package com.alptugan.text
 {
 	import com.alptugan.utils.BitmapUtil;
@@ -118,7 +119,7 @@ package com.alptugan.text
 			TfHolder.addChild( Tf );
 			addChild( TfHolder );
 			
-			Tf.x = -BitmapUtil.getTextFieldBounds( Tf ).x + 4;
+			Tf.x = -BitmapUtil.getTextFieldBounds( Tf ).x + 10;
 			
 			if(this.fInStr.toLowerCase() == "message" || this.fInStr.toLowerCase() == "mesaj")
 				Tf.y = 4;

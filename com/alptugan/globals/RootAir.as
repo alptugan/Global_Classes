@@ -123,6 +123,14 @@ package com.alptugan.globals
 			stage.addEventListener(KeyboardEvent.KEY_DOWN,onKeyDown);
 		}
 		
+		public function disableKeyBoard():void {
+			stage.removeEventListener(KeyboardEvent.KEY_DOWN,onKeyDown);
+		}
+		
+		public function enableKeyBoard():void {
+			stage.addEventListener(KeyboardEvent.KEY_DOWN,onKeyDown);
+		}
+		
 		protected function onKeyDown(e:KeyboardEvent):void
 		{
 			if(e.keyCode == KeyCode.D)

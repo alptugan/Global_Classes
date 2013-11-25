@@ -2,6 +2,7 @@ package  src.com.azinliklarittifaki
 {
 	import com.alptugan.text.AText;
 	import com.alptugan.utils.BitmapUtil;
+	import com.bit101.components.VRangeSlider;
 	
 	import flash.display.Shape;
 	import flash.events.Event;
@@ -10,6 +11,7 @@ package  src.com.azinliklarittifaki
 	import flash.text.TextFieldAutoSize;
 	import flash.text.TextFormat;
 	
+	import org.casalib.display.CasaShape;
 	import org.casalib.display.CasaSprite;
 	import org.casalib.display.CasaTextField;
 	
@@ -30,8 +32,10 @@ package  src.com.azinliklarittifaki
 		private var tr       : Boolean;
 		private var bg       : Boolean;
 		private var t:APatternBg;
+		private var rect:CasaShape;
+		private var bgColor:uint;
 		
-		public function AButton(src:String,fontName:String,fontColor:uint,fontSize:int,tr:Boolean = false,bg:Boolean =false)
+		public function AButton(src:String,fontName:String,fontColor:uint,fontSize:int,tr:Boolean = false,bg:Boolean =false,bgColor:uint=0x2ecc71)
 		{
 			this.src = src;
 			this.fontSize  = fontSize;
@@ -39,6 +43,7 @@ package  src.com.azinliklarittifaki
 			this.fontName  = fontName;
 			this.tr		   = tr;
 			this.bg        = bg;
+			this.bgColor = bgColor;
 			super();
 			
 			this.addEventListener(Event.ADDED_TO_STAGE,onAddedToStage);
@@ -74,18 +79,23 @@ package  src.com.azinliklarittifaki
 			
 			addChild(tf);
 			
+			
+			
+			if (bg) 
+			{
+				rect = new CasaShape();
+				rect.graphics.beginFill( bgColor );
+				rect.graphics.drawRect( 0,0,Math.round(tf.width)+50,20+Math.round(tf.height));
+				rect.graphics.endFill();
+				rect.alpha = 1;
+				
+				addChildAt( rect,0 );
+				
+				tf.x = (( rect.width - tf.width ) >> 1 );
+				tf.y = (( rect.height - tf.height ) >> 1 );
+			}
+			
 			/*
-			rect = new Shape();
-			rect.graphics.beginFill( 0x333333 );
-			rect.graphics.drawRect( 0,0,Math.round(tf.width)+30,10+Math.round(tf.height));
-			rect.graphics.endFill();
-			rect.alpha = 1;
-			
-			addChildAt( rect,0 );
-			
-			tf.x = (( rect.width - tf.width ) >> 1 );
-			tf.y = (( rect.height - tf.height ) >> 1 );*/
-			
 			if (bg) 
 			{
 				t = new APatternBg(Math.round(tf.width)+30,47);
@@ -93,7 +103,7 @@ package  src.com.azinliklarittifaki
 				
 				tf.x = (( t.width - tf.width ) >> 1 );
 				tf.y = 2+(( t.height - tf.height ) >> 1 );
-			}
+			}*/
 			
 		}
 	}
